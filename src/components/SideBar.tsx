@@ -7,7 +7,7 @@ import {
 import { SignInButton, SignUpButton } from "@clerk/nextjs";
 import { Button } from "./ui/button";
 import { currentUser } from "@clerk/nextjs/server";
-import { getUserByClerkId } from "@/actions/uset.action";
+import { getUserByClerkId } from "@/actions/user.action";
 import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { Separator } from "./ui/separator";
