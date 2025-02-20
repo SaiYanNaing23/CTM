@@ -107,13 +107,13 @@ const PostCard = ({post,dbUserId} : { post: Post, dbUserId: string | null}) => {
               <p className="mt-2 text-sm text-foreground break-words">{post.content}</p>
             </div>
 
+          </div>
             {/* POST IMAGE */}
             {post.image && (
               <div className="rounded-lg overflow-hidden">
                 <img src={post.image} alt="Post content" className="w-full h-auto object-cover" />
               </div>
             )}
-          </div>
             {/* likes and comments */}
             <div className="flex items-center pt-2 space-x-4">
             {user ? (
